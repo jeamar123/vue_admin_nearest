@@ -1,0 +1,54 @@
+input{
+
+}
+textarea{
+
+}
+select{
+  
+}
+
+
+
+.input-div-checkbox input[type="checkbox"] {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.input-div-checkbox label {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+}
+
+.input-div-checkbox label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 1px solid #e5e7eb;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.input-div-checkbox input[type="checkbox"]:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 8px;
+  width: 7px;
+  height: 14px;
+  border: solid #476A9D;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}

@@ -1,0 +1,44 @@
+{
+  "shops" : [
+    {
+      "name" : "Lorem",
+      "address" : "Ipsum",
+      "longitude" : 123,
+      "latitude" : 123,
+      "opening_hours": "[9:00, 10:00, 11:00]",
+      "status": "Active"
+    },
+    {
+      "name" : "Lorem",
+      "address" : "Ipsum",
+      "longitude" : 123,
+      "latitude" : 123,
+      "opening_hours": "[9:00, 10:00, 11:00]",
+      "status": "Active"
+    },
+    {
+      "name" : "Lorem",
+      "address" : "Ipsum",
+      "longitude" : 123,
+      "latitude" : 123,
+      "opening_hours": "[9:00, 10:00, 11:00]",
+      "status": "Active"
+    },
+    {
+      "name" : "Lorem",
+      "address" : "Ipsum",
+      "longitude" : 123,
+      "latitude" : 123,
+      "opening_hours": "[9:00, 10:00, 11:00]",
+      "status": "Active"
+    },
+    {
+      "name" : "Lorem",
+      "address" : "Ipsum",
+      "longitude" : 123,
+      "latitude" : 123,
+      "opening_hours": "[9:00, 10:00, 11:00]",
+      "status": "Active"
+    }
+  ]
+}
